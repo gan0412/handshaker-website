@@ -157,6 +157,31 @@ body {
     font-weight: 700;
 }
 
+.btn-secondary {
+    background: rgba(255, 255, 255, 0.08);
+    color: white !important;
+    border: 1px solid var(--glass-border);
+    border-radius: 99px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, transform 0.2s, border-color 0.2s;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.btn-secondary.small {
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
 /* Hero Section */
 .hero {
     min-height: 100vh;
